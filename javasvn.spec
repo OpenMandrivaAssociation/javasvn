@@ -3,7 +3,7 @@
 
 Name:           javasvn
 Version:        1.1.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Pure Java Subversion client library
 
@@ -16,7 +16,7 @@ Source1:        %{name}-license.html
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires:  ant
-BuildRequires:	jpackage-utils >= 0:1.6
+BuildRequires:	java-rpmbuild >= 0:1.6
 %if %{gcj_support}
 BuildRequires:		java-gcj-compat-devel
 Requires(post):		java-gcj-compat
