@@ -3,7 +3,7 @@
 
 Name:           javasvn
 Version:        1.1.0
-Release:        %mkrel 5
+Release:        %mkrel 6
 Epoch:          0
 Summary:        Pure Java Subversion client library
 
