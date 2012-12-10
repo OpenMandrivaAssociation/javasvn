@@ -124,3 +124,67 @@ rm -rf $RPM_BUILD_ROOT
 %{_javadocdir}/%{name}-%{version}
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0:1.1.0-6mdv2011.0
++ Revision: 619784
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0:1.1.0-5mdv2010.0
++ Revision: 429596
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0:1.1.0-4mdv2009.0
++ Revision: 247396
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0:1.1.0-2mdv2008.1
++ Revision: 136503
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Anssi Hannula <anssi@mandriva.org>
+    - buildrequire java-rpmbuild, i.e. build with icedtea on x86(_64)
+
+
+* Tue Oct 31 2006 David Walluck <walluck@mandriva.org> 1.1.0-1mdv2007.0
++ Revision: 74304
+- bump release
+- 1.1.0.beta5
+- Import javasvn
+
+* Fri Sep 01 2006 David Walluck <walluck@mandriva.org> 0:1.1.0-0.3.beta4mdv2007.0
+- release
+
+* Tue Aug 29 2006 Robert Marcano <robert@marcanoonline.com> 1.1.0-0.3.beta4
+- Rebuild
+
+* Fri Aug 04 2006 Robert Marcano <robert@marcanoonline.com> 1.1.0-0.2.beta4
+- Fix bad relase tag
+
+* Tue Aug 01 2006 Robert Marcano <robert@marcanoonline.com> 1.1.0-0.beta4
+- Update to upstream version 1.1.0.beta4, required by subclipse 1.1.4
+
+* Sat Jul 29 2006 Robert Marcano <robert@marcanoonline.com> 1.0.6-2
+- Rebuilt to pick up the changes in GCJ (bug #200490)
+
+* Tue Jun 27 2006 Robert Marcano <robert@marcanoonline.com> 1.0.6-1
+- Update to upstream version 1.0.6
+
+* Mon Jun 26 2006 Robert Marcano <robert@marcanoonline.com> 1.0.4-4
+- created javadoc subpackage
+- dependency changed from ganymed to ganymed-ssh2
+
+* Mon Jun 12 2006 Robert Marcano <robert@marcanoonline.com> 1.0.4-3
+- rpmlint fixes and debuginfo generation workaround
+- doc files added
+
+* Mon May 29 2006 Robert Marcano <robert@marcanoonline.com> 1.0.4-2
+- review updates
+
+* Mon May 08 2006 Robert Marcano <robert@marcanoonline.com> 1.0.4-1
+- initial version
+
