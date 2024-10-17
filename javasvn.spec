@@ -10,7 +10,7 @@ Summary:        Pure Java Subversion client library
 Group:          Development/Java
 # License located at http://tmate.org/svn/license.html
 License:        BSD
-URL:            http://tmate.org/svn/
+URL:            https://tmate.org/svn/
 Source0:        http://tmate.org/svn/org.tmatesoft.svn_%{version}.beta5.src.tar.bz2
 Source1:        %{name}-license.html
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
